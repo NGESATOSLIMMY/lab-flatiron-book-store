@@ -45,3 +45,7 @@ const bookStore = {
 
 // Write your code here!
 
+//selecting and changing the header element
+const header = document.getElementById('header');
+header.textContent = bookStore.name;
+
